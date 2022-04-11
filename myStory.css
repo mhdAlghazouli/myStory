@@ -1,57 +1,74 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* start Global */
 
-#main-img{
-    max-width: 20%;
-    max-height: 20%;
-    border-radius: 30px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: none;
+body{
+
 }
-#my-name{
-    text-align:center;
-    font-family: Lobster ;
-    color: red;
-    display: none;
+
+ .container{
+     width: 1200px;
+     margin: auto;
+ }
+
+ ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+/* end global */
+
+/*start Navbar  */
+.navbar{
+    font-size: 20px;
+    height: 0;
+    color: white;
 }
-#first-p{
-    text-align: center;
-    font-size: large;
-    font-family: monospace;
-    color: black;
-}
-#header{
-    
-    display: flex; 
-    justify-content: center;
+
+ .navbar .brand{
+     float: left;
+     width: 40%;
+ }
+
+ .navbar .links{
+     float: left;
+     width: 60%;
+     margin-top: 15px;
+
+ }
+
+ .navbar .links li {
+     display: inline-block;
+     padding: 10PX 0;
+     margin: 0 10px;
+     text-transform: uppercase;
+     border-bottom: 2px solid transparent;
+     font-weight: bold;
+ }
+ .navbar .links li.active,
+ .navbar .links li:hover{
+     color: #1abc9c;
+     border-bottom: 2px solid #1abc9c;
+     cursor: pointer;
+
+ }
+
+
+
  
-}
-.buttons{
-   background-color: white; 
-  width: 20%;
-  border: solid gray;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-}
+ /* end navbar */
 
-#story-div{
-    font-family: monospace;
-    display: none;
-    color: black;
+ /* satrt header */
+.header{
+    background: url("My project.jpg");
+    
+    
 }
-.footer{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-image: url("https://www.eggucation.co.uk/wp-content/uploads/2016/10/Footer-background-image.jpg");
-    background-size: cover;
-    position: relative;
-    color: black;
-    text-align: center;
-    font-family: cursive;
-}
-
+ /* end header */
+ 
+ .clearfix{
+     clear: both;
+ }
