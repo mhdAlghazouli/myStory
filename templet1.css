@@ -1,0 +1,235 @@
+/* start main  */
+body{
+    
+    height: 4000px;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+}
+/* end main */
+
+/* start header */
+.header .slider{
+    background-image: url("My project.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.header .slider .intro{
+    
+    height: 600px;
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+}
+
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 5px 0;
+}
+.header .slider .intro button{
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.header .navbar{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase;
+}
+.header .navbar h2 span{
+    color: #2ecc71;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+    color: #30b576;
+    
+}
+/* end header */
+
+
+/* start features */
+.features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.features .feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+    
+}
+.features .feat h2{
+    text-transform: uppercase;
+    color: #555;
+}
+.features .feat p{
+    line-height: 1.6;
+    color: #888;
+    text-align: justify;
+    padding: 0 20px 0 0;
+}
+/* end features */
+
+
+/* satrt about me */
+.about-me{
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+.about-me .image img{
+    width: 100%;
+}
+.about-me .info{
+    float: left;
+    width: 60%;
+}
+.about-me .info .hobbies{
+    overflow: hidden;
+    margin: 20px;
+}
+.about-me .info .hobbies > div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+/* end about me */
+
+
+/* start my skills */
+.my-skills{
+    padding-top:30px ;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress{
+    float: left;
+    width: 50%;
+}
+
+
+/* end my skills */
+
+
+/* start resume */
+.resume{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* end resume */
+
+
+/* start my education */
+.education{
+    padding-top:30px ;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.education .main,
+.education .exp{
+    float: left;
+    width: 50%;
+}
+/* end my education */
+
+
+/* start reviews */
+.reviews{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* end reviews */
+
+
+/* start portfolio */
+.portfolio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+.portfolio .projects{
+    overflow: hidden;
+    
+}
+.portfolio .projects > div{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+
+}
+.portfolio .projects > div img{
+    width: 92%;
+    margin: 10px;
+}
+/* end portfolio */
+
+
+/* start contact me */
+.contact-me{
+    background-color: #252f31;
+    overflow: hidden;
+}
+.contact-me h2{
+    color: #fff;
+}
+.contact-me p{
+    color: #6a6e71;
+}
+.contact-me .info,
+.contact-me .form{
+    width: 50%;
+    float: left;
+}
+/* end contact me */
+
+
+/* start footer */
+.footer{
+    background-color: #191e22;
+    color: #6a6e71;
+    padding: 20px 0;
+    text-align: center;
+}
+/* end footer */
