@@ -1,7 +1,7 @@
 /* start main  */
 body{
     
-    height: 4000px;
+    height: auto;
 }
 
 .container{
@@ -119,16 +119,53 @@ body{
     float: left;
     width: 60%;
 }
+.about-me .info h2{
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+.about-me .info > p{
+    margin: 0 0 10px 40px;
+    
+}
+.about-me .info > p:last-of-type{
+    margin: 30px 0 10px 40px; 
+    color: #777;
+}
+.about-me .info p{
+    
+    line-height: 1.6;
+    color: #777;
+}
 .about-me .info .hobbies{
     overflow: hidden;
-    margin: 20px;
+    margin: 20px 0 0 40px;
 }
-.about-me .info .hobbies > div{
+.about-me .info .hobbies h3{
+    color: #555;
+    
+}
+.about-me .info .hobbies .content{
     float: left;
     width: 50%;
     min-height: 100px;
+    overflow: hidden;
 }
-
+.about-me .info .hobbies .content h3{
+    color: #555;
+}
+.about-me .info .hobbies .content .icon{
+    float: left;
+    width: 12%;
+    margin-right: 5%;
+}
+.about-me .info .hobbies .content .icon img{
+    max-width: 100%;
+    margin: 20px 10px 0 0;
+}
+.about-me .info .hobbies .content .text{
+    float: left;
+    width: 83%;
+}
 /* end about me */
 
 
