@@ -15,7 +15,7 @@ body{
 
 /* start header */
 .header .slider{
-    background-image: url("My project.jpg");
+    background-image: url("My project1.jpg");
     background-size: cover;
     height: 600px;
 }
