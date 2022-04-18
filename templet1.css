@@ -220,23 +220,34 @@ body{
 
 
 /* start portfolio */
-.portfolio{
+.links{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 
 }
-.portfolio .projects{
+.links h2{
+    color: #777;
+}
+.links p{
+    line-height: 1.7;
+    color: #666;
+}
+.links .projects{
     overflow: hidden;
     
 }
-.portfolio .projects > div{
+.links .projects p{
+    font-size: 20px;
+    color: #999;
+}
+.links .projects > div{
     float: left;
     width: 33.333333%;
     margin-bottom: 10px;
 
 }
-.portfolio .projects > div img{
+.links .projects > div img{
     width: 92%;
     margin: 10px;
 }
