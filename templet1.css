@@ -52,6 +52,9 @@ body{
 .header .navbar h2{
     float: left;
     text-transform: uppercase;
+    
+    font-size: 30px;
+    text-shadow: 0 0 10px #aaa;
 }
 .header .navbar h2 span{
     color: #2ecc71;
@@ -69,6 +72,9 @@ body{
 .header .navbar ul li a{
     color: #fff;
     text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    text-shadow: 0 0 10px #aaa;
 }
 .header .navbar ul li.active a,
 .header .navbar ul li a:hover{
@@ -279,5 +285,6 @@ body{
     color: #6a6e71;
     padding: 20px 0;
     text-align: center;
+    
 }
 /* end footer */
