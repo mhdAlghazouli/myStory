@@ -15,15 +15,35 @@ body{
 
 /* start header */
 .header .slider{
-    background-image: url("My project1.jpg");
+    background-image: url("My project3.jpg");
     background-size: cover;
     height: 600px;
+}
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    color: white;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    color: white;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.5;
 }
 .header .slider .intro{
     
     height: 600px;
     text-align: center;
-    color: #fff;
+    color: #999;
     padding-top: 200px;
 }
 
@@ -31,16 +51,16 @@ body{
     margin: 0 auto;
     font-size: 50px;
     width: 600px;
-    border-top: 4px solid #fff;
-    border-bottom: 4px solid #fff;
+    border-top: 4px solid #999;
+    border-bottom: 4px solid #999;
     padding: 5px 0;
 }
 .header .slider .intro button{
     background: none;
     margin-top: 30px;
     font-size: 20px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #999;
+    color: #999;
     font-weight: bold;
     padding: 10px 30px;
 }
