@@ -356,6 +356,13 @@ body{
     width: 80%;
     margin-bottom: 10px;
 }
+.contact-me .form input[type="email"]{
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
 .contact-me .form textarea{
     background-color: #4b5557;
     color: #fff;
@@ -364,7 +371,7 @@ body{
     margin-bottom: 10px;
     height: 300px;
 }
-.contact-me .form input[type = "submit"]{
+.contact-me .form button{
     background-color: #191e22;
     color: #fff;
     padding: 10px 20px;

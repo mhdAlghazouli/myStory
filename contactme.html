@@ -40,19 +40,19 @@
                 <strong>Phone:</strong> 1234567890
             </p>
         </div>
-        <form class="form">
+        <form class="form" >
             <label>Name *</label>
-            <input type="text">
+            <input type="text"  id="name">
 
-            <label>E-mail Address *</label>
-            <input type="text">
+            <label >E-mail Address *</label>
+            <input type="email" id="email">
 
             <label>Phone *</label>
-            <input type="text">
+            <input type="text"  id="phone">
 
-            <label>Message </label>
-            <textarea></textarea>
-            <input type="submit" value="contact me">
+            <label >Message </label>
+            <textarea id="message"></textarea>
+            <button value="contact me" id="submit">contact me</button>
         </form>
     </div>
 </div>
@@ -71,5 +71,8 @@
 </div>
 
 <!-- end footer -->
+
 </body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="contactme.js"></script>
 </html>
