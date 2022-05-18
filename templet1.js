@@ -23,7 +23,7 @@ for(let i = 1 ; i <= 4 ; i++){
             counter++
         }
         if(counter > 5){
-            counter = 5;
+            counter = 2;
             words = `url('My project${counter}.jpg')`
             document.getElementById("slider").style.backgroundImage = words
             document.getElementById("slider").style.transitionDuration = "1" + "s"
@@ -33,11 +33,12 @@ for(let i = 1 ; i <= 4 ; i++){
     // making loop on the prev btn
     prevBtn.onclick = function(){
         if(counter === 2){
+            counter = 5
             words = `url('My project${counter}.jpg')`
             document.getElementById("slider").style.backgroundImage = words
             document.getElementById("slider").style.transitionDuration = "1" + "s"
             document.getElementById("slider").style.transitionDelay = "250" + "ms"
-            console.log(counter)
+            
         }else{
                 words = `url('My project${counter - 1}.jpg')`
                 console.log(words)
@@ -45,7 +46,7 @@ for(let i = 1 ; i <= 4 ; i++){
                 document.getElementById("slider").style.transitionDuration = "1" + "s"
                 document.getElementById("slider").style.transitionDelay = "250" + "ms"
                 counter--
-                console.log(counter)
+                
             }
     }
 }

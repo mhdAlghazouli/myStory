@@ -22,7 +22,7 @@ body{
 #prevBtn {
     position: absolute;
     top: 50%;
-    color: white;
+    color: black;
     z-index: 10;
     left: 5%;
     font-size: 30px;
@@ -32,22 +32,22 @@ body{
 #nextBtn {
     position: absolute;
     top: 50%;
-    color: white;
+    color: black;
     z-index: 10;
     right: 5%;
     font-size: 30px;
     cursor: pointer;
     opacity: 0.5;
 }
-.header .slider .intro{
+/* .header .slider .intro{
     
     height: 600px;
     text-align: center;
-    color: #999;
+    color:#2ecc71 ;
     padding-top: 200px;
-}
+} */
 
-.header .slider .intro h2{
+/* .header .slider .intro h2{
     margin: 0 auto;
     font-size: 50px;
     width: 600px;
@@ -63,7 +63,7 @@ body{
     color: #999;
     font-weight: bold;
     padding: 10px 30px;
-}
+} */
 .header .navbar{
     background-color: #252f31;
     color: #fff;
@@ -132,7 +132,7 @@ body{
 
 /* satrt about me */
 .about-me{
-    background-color: #f2f2f2;
+    background-color: white;
     overflow: hidden;
 }
 .about-me .image{
@@ -214,7 +214,7 @@ body{
 
 /* start resume */
 .resume{
-    background-color: #f2f2f2;
+    background-color: white;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -317,7 +317,7 @@ body{
 
 /* start contact me */
 .contact-me{
-    background-color: #252f31;
+    background-color: white;
     overflow: hidden;
     padding-top: 50px;
     padding-bottom: 70px;
@@ -328,7 +328,7 @@ body{
     float: left;
 }
 .contact-me h2{
-    color: #fff;
+    color: black;
     margin-left: 40px;
     
 }
@@ -338,7 +338,7 @@ body{
     line-height: 1.7;
 }
 .contact-me p strong{
-    color: #d1d6da;
+    color: black;
 }
 .contact-me .form{
     width: 45%;
@@ -346,30 +346,30 @@ body{
 }
 .contact-me .form label{
     display: block;
-    color: #d1d6da;
+    color: black;
     margin: 10px 0;
 }
 .contact-me .form input[type="text"]{
-    background-color: #4b5557;
+    background-color: black;
     color: #fff;
     padding: 10px;
     width: 80%;
     margin-bottom: 10px;
 }
 .contact-me .form input[type="email"]{
-    background-color: #4b5557;
+    background-color: black;
     color: #fff;
     padding: 10px;
     width: 80%;
     margin-bottom: 10px;
 }
 .contact-me .form textarea{
-    background-color: #4b5557;
+    background-color: black;
     color: #fff;
     padding: 10px;
     width: 80%;
     margin-bottom: 10px;
-    height: 300px;
+    height: 50px;
 }
 .contact-me .form button{
     background-color: #191e22;
