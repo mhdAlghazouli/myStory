@@ -17,7 +17,7 @@ body{
 .header .slider{
     background-image: url("My project2.jpg");
     background-size: cover;
-    height: 600px;
+    height: 650px;
 }
 #prevBtn {
     position: absolute;
@@ -28,6 +28,7 @@ body{
     font-size: 30px;
     cursor: pointer;
     opacity: 0.5;
+    font-family: monospace;
 }
 #nextBtn {
     position: absolute;
@@ -38,6 +39,7 @@ body{
     font-size: 30px;
     cursor: pointer;
     opacity: 0.5;
+    font-family: monospace;
 }
 /* .header .slider .intro{
     
