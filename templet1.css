@@ -143,6 +143,8 @@ body{
 }
 .about-me .image img{
     width: 100%;
+   margin-top: 20px;
+    border-radius: 15px;
 }
 .about-me .info{
     float: left;
@@ -217,9 +219,10 @@ body{
 /* start resume */
 .resume{
     background-color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 160px;
+   
     text-align: center;
+    
 }
 /* end resume */
 
@@ -253,6 +256,7 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    height: 1100px;
 
 }
 .links h2{
@@ -287,7 +291,7 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-
+    height: 950px;
 }
 .portfolio h2{
     color: #777;
