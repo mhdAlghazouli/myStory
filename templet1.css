@@ -136,6 +136,7 @@ body{
 .about-me{
     background-color: white;
     overflow: hidden;
+    padding: 25px
 }
 .about-me .image{
     float: left;
