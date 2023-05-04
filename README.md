@@ -1,2 +1,2 @@
-# myStory: What 
+# myStory:
 
